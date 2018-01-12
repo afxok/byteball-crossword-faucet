@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Byteball Crossword Faucet</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/crossword.js"></script>
+    <script type="text/javascript">
+        var puzzle = {{{json ./puzzle}}};
+    </script>
+    <script type="text/javascript">
+      var crossw1rd1;
+      $(document).ready(function() {
+        crossw1rd1 = new Crossw1rd('container1');
+        crossw1rd1.init('puzzle');
+      });
+    </script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+      <header class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="http://byteball.org">Byteball</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main role="main">
+
+	<!-- div id="container1" class="col-lg-12 col-md-12 col-sm-12"></div>
+	<br/>
+	<div id="container2" class="col-lg-12 col-md-12 col-sm-12"></div -->
+	<div id="container1" class=""></div>
+	<br/>
+	<div id="container2" class=""></div>
+
+
+      </main>
+
+    </div> <!-- /container -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

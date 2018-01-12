@@ -1,0 +1,21 @@
+{
+  "name": "byteball-crossword-faucet",
+  "description": "Crossword Puzzle Faucet for Byteball",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "hbs": "*",
+    "url": "*",
+    "path": "*",
+    "method-override": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express-session": "*",
+    "compression": "*",
+    "morgan": "*",
+    "errorhandler": "*",
+    "byteballcore": "git+https://github.com/afxok/byteballcore.git",
+    "headless-byteball": "git+https://github.com/byteball/headless-byteball.git"
+  },
+  "private": true
+}
